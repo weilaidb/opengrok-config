@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_211" class="java.beans.XMLDecoder">
+ <object class="org.opengrok.indexer.configuration.Configuration" id="Configuration0">
+  <void property="cmds">
+   <object class="java.util.Collections" method="unmodifiableMap">
+    <object class="java.util.HashMap">
+     <void method="put">
+      <string>org.opengrok.indexer.history.ClearCaseRepository</string>
+      <string>cleartool</string>
+     </void>
+     <void method="put">
+      <string>org.opengrok.indexer.history.PerforceRepository</string>
+      <string>p4</string>
+     </void>
+     <void method="put">
+      <string>org.opengrok.indexer.history.GitRepository</string>
+      <string>git</string>
+     </void>
+    </object>
+   </object>
+  </void>
+  <void property="ctags">
+   <string>E:\Software\opengrok\ctags-2019-11-08_be621aec-x86\ctags.exe</string>
+  </void>
+  <void property="dataRoot">
+   <string>E:\Software\opengrok\data</string>
+  </void>
+  <void property="historyEnabled">
+   <boolean>false</boolean>
+  </void>
+  <void id="IgnoredNames0" property="ignoredNames">
+   <void id="IgnoredDirs0" property="ignoredDirs">
+    <void property="items">
+     <void method="add">
+      <string>.bk</string>
+     </void>
+     <void method="add">
+      <string>.hg</string>
+     </void>
+     <void method="add">
+      <string>.bzr</string>
+     </void>
+     <void method="add">
+      <string>.git</string>
+     </void>
+     <void method="add">
+      <string>.svn</string>
+     </void>
+     <void method="add">
+      <string>SCCS</string>
+     </void>
+     <void method="add">
+      <string>.razor</string>
+     </void>
+     <void method="add">
+      <string>RCS</string>
+     </void>
+     <void method="add">
+      <string>CVS</string>
+     </void>
+     <void method="add">
+      <string>CVSROOT</string>
+     </void>
+     <void method="add">
+      <string>.repo</string>
+     </void>
+    </void>
+   </void>
+   <void id="IgnoredFiles0" property="ignoredFiles">
+    <void property="items">
+     <void method="add">
+      <string>.hgtags</string>
+     </void>
+     <void method="add">
+      <string>.hgignore</string>
+     </void>
+     <void method="add">
+      <string>.git</string>
+     </void>
+     <void method="add">
+      <string>.p4config</string>
+     </void>
+     <void method="add">
+      <string>.cvsignore</string>
+     </void>
+    </void>
+   </void>
+  </void>
+  <void property="projects">
+   <void method="put">
+    <string>jeewms</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>jeewms</string>
+     </void>
+     <void property="path">
+      <string>/jeewms</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>boost_1_69_0</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>boost_1_69_0</string>
+     </void>
+     <void property="path">
+      <string>/boost_1_69_0</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>kernel</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>kernel</string>
+     </void>
+     <void property="path">
+      <string>/kernel</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>hadoop-2.10.0-src</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>hadoop-2.10.0-src</string>
+     </void>
+     <void property="path">
+      <string>/hadoop-2.10.0-src</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="projectsEnabled">
+   <boolean>true</boolean>
+  </void>
+  <void property="repositories">
+   <void method="add">
+    <object class="org.opengrok.indexer.history.RepositoryInfo">
+     <void property="branch">
+      <string>master</string>
+     </void>
+     <void property="currentVersion">
+      <string>2019-10-23 07:01 +0800 32b2b78 鏇逛簩浼� 淇敼鍦板潃</string>
+     </void>
+     <void property="datePatterns">
+      <array class="java.lang.String" length="1">
+       <void index="0">
+        <string>yyyy-MM-dd&apos;T&apos;HH:mm:ssXXX</string>
+       </void>
+      </array>
+     </void>
+     <void property="directoryNameRelative">
+      <string>\jeewms</string>
+     </void>
+     <void property="parent">
+      <string>git@gitee.com:erzhongxmu/jeewms.git</string>
+     </void>
+     <void property="type">
+      <string>git</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="org.opengrok.indexer.history.RepositoryInfo">
+     <void property="branch">
+      <string>master</string>
+     </void>
+     <void property="currentVersion">
+      <string>2019-07-10 03:34 +0800 e9a83bd23220 Linus Torvalds Merge tag &apos;docs-5.3&apos; of git://git.lwn.net/linux</string>
+     </void>
+     <void property="datePatterns">
+      <array class="java.lang.String" length="1">
+       <void index="0">
+        <string>yyyy-MM-dd&apos;T&apos;HH:mm:ssXXX</string>
+       </void>
+      </array>
+     </void>
+     <void property="directoryNameRelative">
+      <string>\kernel\git-linux\linux</string>
+     </void>
+     <void property="parent">
+      <string>https://github.com/torvalds/linux.git</string>
+     </void>
+     <void property="type">
+      <string>git</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="sourceRoot">
+   <string>E:\tarbao\opengrok_project</string>
+  </void>
+ </object>
+</java>
